@@ -2,6 +2,25 @@
   <div class="row">
     <div class="col-xs-12">
       <app-game-control (intkk)=onIntervalStart($event)></app-game-control>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-odd
+      *ngFor="let item of oddNumbers"
+      [oddNumb]=item
+      ></app-odd>
+      <app-even
+      *ngFor="let item of evenNumbers"
+      [evenNumb]=item
+      ></app-even>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-12">
+      
+
       <h3>Bind it!</h3>
       <ol>
         <li>Create three new components: GameControl, Odd and Even</li>

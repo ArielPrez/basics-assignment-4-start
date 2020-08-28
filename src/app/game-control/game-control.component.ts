@@ -9,7 +9,6 @@ export class GameControlComponent implements OnInit {
 
   interval;
   lastNumber = 0;
-  numbersType = [];
 
   // tslint:disable-next-line: no-output-rename
   @Output('intkk') intervalKK = new EventEmitter<number>();
