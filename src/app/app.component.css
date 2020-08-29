@@ -1,0 +1,15 @@
+
+.colOdd{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    margin: 10px;
+}
+
+.colEven{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    margin: 10px;
+    position: fixed;
+}
